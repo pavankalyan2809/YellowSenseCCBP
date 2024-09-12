@@ -1,0 +1,48 @@
+/* Bookmark.css */
+
+.bookmarks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .bookmark-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .bookmark-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bookmark-card h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .bookmark-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .bookmark-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .bookmark-card a:hover h2 {
+    color: #007bff;
+  }
+  

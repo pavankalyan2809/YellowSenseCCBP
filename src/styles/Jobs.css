@@ -1,0 +1,34 @@
+.jobs-container {
+  padding: 20px;
+}
+
+.job-card {
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.job-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-tags {
+  margin-top: 10px;
+}
+
+.job-tags span {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.job-details-container {
+  padding: 20px;
+  
+}
+
+.job-details-container h2 {
+  margin-bottom: 15px;
+}
